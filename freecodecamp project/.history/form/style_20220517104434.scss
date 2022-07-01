@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+$color-white: #f3f3f3;
+    $color-darkblue: #1b1b32;
+    $color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    $color-green: #37af65;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background: blue;
+  .header {
+    color: white;
+    text-align: center;
+  }
+  form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background: powderblue;
+    input {
+      width: 100%;
+    }
+  }
+}

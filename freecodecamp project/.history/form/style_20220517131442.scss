@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+$color-white: #f3f3f3;
+$color-darkblue: #1b1b32;
+$color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+$color-green: #37af65;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background: $color-darkblue-alpha;
+  .header {
+    color: $color-white;
+    text-align: center;
+  }
+  form {
+    // margin-top: 20px;
+    border-radius: 3px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    background: $color-darkblue;
+    label {
+      color: $color-white;
+      &.label {
+        display: block;
+        margin-top: 20px;
+      }
+      // margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="submit"],
+    select {
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    input[type="submit"] {
+      color: $color-white;
+      background: $color-green;
+      border: none;
+      margin-top: 20px;
+      &:hover {
+        cursor: pointer;
+        background: green;
+      }
+    }
+    .option {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-top: 10px;
+      input[type="radio"] {
+        width: 15px;
+        height: 15px;
+      }
+    }
+    .check {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-top: 10px;
+      input[type="checkbox"] {
+        width: 15px;
+        height: 15px;
+      }
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  }
+}
+@media only screen and (max-width:600px) {
+    form {
+        w
+    }
+}

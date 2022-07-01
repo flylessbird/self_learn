@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Find the specific option tag text value of a selected option</title>
+  </head>
+  <body>
+    <select id="myselect">
+      <option value="1">Option-1</option>
+      <option value="2">Option-2</option>
+      <option value="3">Option-3</option>
+    </select>
+  </body>
+  <script>
+    var txt = $("#myselect option[value=2]").text();
+    alert(txt);
+  </script>
+</html>

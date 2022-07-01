@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+$color-white: #f3f3f3;
+$color-darkblue: #1b1b32;
+$color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+$color-green: #37af65;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background: blue;
+  .header {
+    color: $color-white;
+    text-align: center;
+  }
+  form {
+    // margin-top: 20px;
+    border-radius: 3px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    background: $color-darkblue;
+    label {
+      color: $color-white;
+      // margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    input[type="radio"] {
+    }
+  }
+}

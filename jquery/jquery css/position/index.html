@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Access the position of an element</title>
+  </head>
+  <body>
+    <div
+      style="
+        height: 75px;
+        width: 200px;
+        padding: 10px;
+        margin: 3px;
+        border: 1px solid blue;
+        background-color: #f3e2a9;
+      "
+    ></div>
+    <p></p>
+  </body>
+  <script>
+    var pos = $("div").position();
+
+    $("p").text(pos.left + ',' + pos.top);
+  </script>
+</html>

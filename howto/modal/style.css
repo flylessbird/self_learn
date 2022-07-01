@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.bg {
+  background: #191919;
+}
+#block {
+  position: relative;
+  border: 1px solid #000;
+  width: 20%;
+  margin: 0 auto;
+}
+.block {
+  width: 80%;
+  position: relative;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.image {
+  width: 80%;
+}
+#sign {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  color: white;
+}
+#sign:hover {
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}

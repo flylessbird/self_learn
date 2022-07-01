@@ -1,0 +1,22 @@
+.block {
+  display: block;
+}
+* {
+  font-family: "Verdana";
+  font-size: 15px;
+}
+.hide {
+  display: none;
+}
+
+.header:hover {
+  cursor: pointer;
+  background: grey;
+}
+.header {
+  padding: 20px;
+  background: #cccccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

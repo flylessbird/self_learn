@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  background: #eeeeee;
+  overflow: hidden;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #000;
+  padding-right: 80px;
+}
+nav img {
+  max-width: 30%;
+}
+nav .link a {
+  float: right;
+  margin-left: 100px;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+
+.container {
+  background: #eeeeee;
+  border: 1px solid transparent;
+}
+.container .info {
+  margin-top: 60px;
+}
+.container .info h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.container .info input {
+  margin: auto;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+.container .info button {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  background: yellow;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.container .content table,
+.container .content tr,
+.container .content td {
+  margin: auto;
+}
+.container .content table td {
+  padding: 30px 0;
+}
+.container .content table .et {
+  width: 100px;
+}
+.container .content table .fa-solid {
+  color: darkorange;
+  font-size: 48px;
+}
+.container .content iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.container .content .cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container .content .cards .card {
+  border-radius: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 318px;
+  border: 1px solid #000;
+}
+.container .content .cards .card h3 {
+  background: #dddddd;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.container .content .cards .card .price {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 0;
+}
+.container .content .cards .card p {
+  margin-top: 20px;
+}
+.container .content .cards .card button {
+  text-transform: uppercase;
+  padding: 10px;
+  background: darkorange;
+  margin-top: 40px;
+  border: none;
+}
+.container .content footer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #dddddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+}
+.container .content footer ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  iframe {
+    max-width: 400px;
+    width: 90%;
+  }
+
+  footer {
+    width: 60%;
+    align-items: center;
+  }
+  .right {
+    border: 1px solid #000;
+  }
+
+  .info {
+    font-size: 20px;
+  }
+
+  nav img {
+    max-width: 80%;
+  }
+  nav .link a {
+    margin-left: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
